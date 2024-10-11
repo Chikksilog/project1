@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(61, 61, 61);
+    padding: 15px 25px;
+    box-shadow: 0 0 5px 3px black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.page-title {
+    color: aliceblue;
+    font-family: Verdana, sans-serif;
+    display: inline-block;
+}
+
+.link-container {
+    float: right;
+    position: relative;
+    top: 10px; 
+}
+
+.title-container {
+    display: inline-block;
+}
+
+.link {
+    color: aliceblue;
+    margin: 0px 10px;
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+    transition: 0.2s;
+}
+
+.link:hover {
+    color: gray;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-section {
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 40px; 
+}
+
+.profile-section .profile img {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 5px solid #fff;
+}
+
+.profile-section h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.profile-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.about {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    color: #333;
+    margin-top: -40px; 
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+footer h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.linkedin-logo {
+    width: 100px; 
+    height: 100px; 
+    vertical-align: middle; 
+}
+.projects h2 {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.projects p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px;
+}
+
+.project-item {
+    background-color: #f9f9f9;
+    padding: 80px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-item h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.project-item .btn-primary {
+    background-color: #ff6f61;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.project-item .btn-primary:hover {
+    background-color: #ff3b2f;
+}
+
+.project-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
